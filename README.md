@@ -65,6 +65,19 @@ A la fin de chaque séance, l'utilisateur doit noter sur 5 étoiles: sa satisfac
 
 L'utilisateur retrouve son suivit dans un calendrier mensuel. Si une séance de CENA a été faite (validée) alors la date se met en bleu. Si un sport autre à été fait alors l'utilisateur peut cliquer sur la date, dire quel sport à été fait (exemple, badminton ou autre) et la case se met en rouge. Si les deux on été fait la case et mi rouge mi bleue.
 
-L'utilisateur doit dire à CENA quelles sont les séances obligatoires de la semaine. Exemple: mercredi de 20h à 22h badminton, vendredi 19h à 20h30 badminton, mardi 18h à 20h saut à la perche.
+CENA connait les séances de sport planifiées dans la semaine grâce à JARVIS communiquant avec MINISTRE. 
+CENA lui doit faire des recommandations du sport chaque jour à faire. En prenant en compte les remarques de l'utilisateur. Par exemple, en contexte, l'utilisateur peu lui dire en plus: "je peux faire du sport à la salle le midi entre 12h15 et 13h30. Je préfère avoir une séance de renforcement des jambes/chevilles avant mon entrainement de badminton le mercredi et après les compétitions du weekend. Mais ça ne doit pas faire trop, il faut prévoir les courbatures. Donc généralement le lundi midi je fais cette séance". CENA se base sur des connaissances sportives sérieuses, pour une joueuse de badminton ayant souvent mal au genoux (d'où le renforcement) et des chevilles fragiles.
+
+CENA peut faire une recommandation en connaissant les comlentaires des séances que l'utilisateur a rempli. Par exemple: Si la séance d'avant l'utilisateur était vraiment fatigué, CENA ne va peut être pas conseiller de faire du fractionné le jour d'après, peut être plutôt une séance plus calme comme des abdos, ou bien de la course à pied. CENA doit savoir dire à l'utilisateur quand faire des pauses dans la semaine, le midi on le soir.
+
+
+### Module MINISTRE
+
+JARVIS communique avec le MINISTRE pour afficher sur l'interface Ministre les évènements prévus de la journée et les recommandations du Ministre.
+
+Sur cette page de l'interface, l'heure est affichée, la météo locale est affichée, les évènements du jours planifié, les recommandations de JARVIS sont affichés. 
+
+MINISTRE connait les évènements planifiés car il a accès au Google Agenda de l'utilisateur.
+MINISTRE connait les recommandations sportif de CENA. Il peut alors alerter l'utilisateur de ce conseil sportif.
 
 
