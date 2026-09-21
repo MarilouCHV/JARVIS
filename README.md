@@ -77,9 +77,14 @@ CENA doit basé ses conseils sur des connaissances sourcées, concernant le spor
 
 JARVIS communique avec le MINISTRE pour afficher sur l'interface Ministre les évènements prévus de la journée et les recommandations du Ministre.
 
-Sur cette page de l'interface, l'heure est affichée, la météo locale est affichée, les évènements du jours planifié, les recommandations de JARVIS sont affichés. 
+Sur cette page de l'interface, l'heure est affichée, la météo locale est affichée, les évènements du jours planifié, les recommandations de JARVIS sont affichés.
+
+Le MINISTRE s'occupe aussi d'organiser les tâches du que l'utilisateur ajoute ou supprime. Les tâches peuvent concerner la vie perso ou la vie professionnelle de l'utilisateur.
+
+L'interface est donc épurée pour canaliser la concentration de l'utilisateur. Les tâches doivent être séparées (bien organisées) entre vie perso et tâche professionnelles. Un indice de priorité est déterminé par le MINISTRE en fonction de la date de fin donnée par l'utilisateur en rentrant la tâche. le MINISTRE doit lui-même estimer le temps que la tâche prendra, les délais etc pour organiser selon un indice de priorité les tâches.
 
 MINISTRE connait les évènements planifiés car il a accès au Google Agenda de l'utilisateur.
 MINISTRE connait les recommandations sportif de CENA. Il peut alors alerter l'utilisateur de ce conseil sportif.
+MINISTRE connait les tâches perso ou pro que l'utilisateur à a faire car il lui a donné.
 
 
