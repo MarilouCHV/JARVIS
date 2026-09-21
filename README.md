@@ -68,7 +68,9 @@ L'utilisateur retrouve son suivit dans un calendrier mensuel. Si une séance de 
 CENA connait les séances de sport planifiées dans la semaine grâce à JARVIS communiquant avec MINISTRE. 
 CENA lui doit faire des recommandations du sport chaque jour à faire. En prenant en compte les remarques de l'utilisateur. Par exemple, en contexte, l'utilisateur peu lui dire en plus: "je peux faire du sport à la salle le midi entre 12h15 et 13h30. Je préfère avoir une séance de renforcement des jambes/chevilles avant mon entrainement de badminton le mercredi et après les compétitions du weekend. Mais ça ne doit pas faire trop, il faut prévoir les courbatures. Donc généralement le lundi midi je fais cette séance". CENA se base sur des connaissances sportives sérieuses, pour une joueuse de badminton ayant souvent mal au genoux (d'où le renforcement) et des chevilles fragiles.
 
-CENA peut faire une recommandation en connaissant les comlentaires des séances que l'utilisateur a rempli. Par exemple: Si la séance d'avant l'utilisateur était vraiment fatigué, CENA ne va peut être pas conseiller de faire du fractionné le jour d'après, peut être plutôt une séance plus calme comme des abdos, ou bien de la course à pied. CENA doit savoir dire à l'utilisateur quand faire des pauses dans la semaine, le midi on le soir.
+CENA peut faire une recommandation en connaissant les comlentaires des séances que l'utilisateur a rempli. Par exemple: Si la séance d'avant l'utilisateur était vraiment fatigué, CENA ne va peut être pas conseiller de faire du fractionné le jour d'après, peut être plutôt une séance plus calme comme des abdos, ou bien de la course à pied. CENA doit savoir dire à l'utilisateur quand faire des pauses dans la semaine, le midi on le soir. 
+
+CENA doit basé ses conseils sur des connaissances sourcées, concernant le sport et le renforcement musculaire. Des conseils qui doivent s'appliquer au profil de l'utilisateur.
 
 
 ### Module MINISTRE
