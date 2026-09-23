@@ -65,7 +65,7 @@ A la fin de chaque séance, l'utilisateur doit noter sur 5 étoiles: sa satisfac
 
 L'utilisateur retrouve son suivit dans un calendrier mensuel. Si une séance de CENA a été faite (validée) alors la date se met en bleu. Si un sport autre à été fait alors l'utilisateur peut cliquer sur la date, dire quel sport à été fait (exemple, badminton ou autre) et la case se met en rouge. Si les deux on été fait la case et mi rouge mi bleue.
 
-CENA connait les séances de sport planifiées dans la semaine grâce à JARVIS communiquant avec MINISTRE. 
+CENA connait les séances de sport planifiées dans la semaine grâce à JARVIS communiquant avec HERMIONE. 
 CENA lui doit faire des recommandations du sport chaque jour à faire. En prenant en compte les remarques de l'utilisateur. Par exemple, en contexte, l'utilisateur peut lui dire en plus: "je peux faire du sport à la salle le midi entre 12h15 et 13h30. Je dois avoir une séance de renforcement des jambes/chevilles, mais je dois faire attention pour pas que ça fasse beaucoup avant mon entrainement de badminton le mercredi et après les compétitions du weekend. Il faut prévoir les courbatures. J'ai déjà été trop fatiguée car ma séance du lundi midi était de trop avant ma séance de saut à la perche du mardi soir". CENA se base sur des connaissances sportives sérieuses, pour une joueuse de badminton et sauteuse à la perche ayant souvent mal au genoux (d'où le renforcement) et des chevilles fragiles.
 
 CENA peut faire une recommandation en connaissant les comlentaires des séances que l'utilisateur a rempli. Par exemple: Si la séance d'avant l'utilisateur était vraiment fatigué, CENA ne va peut être pas conseiller de faire du fractionné le jour d'après, peut être plutôt une séance plus calme comme des abdos, ou bien de la course à pied. CENA doit savoir dire à l'utilisateur quand faire des pauses dans la semaine, le midi on le soir. 
@@ -75,22 +75,25 @@ CENA doit basé ses conseils sur des connaissances sourcées, concernant le spor
 
 ### Module HERMIONE
 
-JARVIS communique avec le MINISTRE pour afficher sur l'interface Ministre les évènements prévus de la journée et les recommandations du Ministre.
+JARVIS communique avec le HERMIONE pour afficher sur l'interface HERMIONE les évènements prévus de la journée et les recommandations du HERMIONE.
 
 Sur cette page de l'interface, l'heure est affichée, la météo locale est affichée, les évènements du jours planifié, les recommandations de JARVIS sont affichés.
 
-Le MINISTRE s'occupe aussi d'organiser les tâches du que l'utilisateur ajoute ou supprime. Les tâches peuvent concerner la vie perso ou la vie professionnelle de l'utilisateur.
+Le HERMIONE s'occupe aussi d'organiser les tâches du que l'utilisateur ajoute ou supprime. Les tâches peuvent concerner la vie perso ou la vie professionnelle de l'utilisateur.
 
-L'interface est donc épurée pour canaliser la concentration de l'utilisateur. Les tâches doivent être séparées (bien organisées) entre vie perso et tâche professionnelles. Un indice de priorité est déterminé par le MINISTRE en fonction de la date de fin donnée par l'utilisateur en rentrant la tâche. le MINISTRE doit lui-même estimer le temps que la tâche prendra, les délais etc pour organiser selon un indice de priorité les tâches.
+L'interface est donc épurée pour canaliser la concentration de l'utilisateur. Les tâches doivent être séparées (bien organisées) entre vie perso et tâche professionnelles. Un indice de priorité est déterminé par le HERMIONE en fonction de la date de fin donnée par l'utilisateur en rentrant la tâche. le HERMIONE doit lui-même estimer le temps que la tâche prendra, les délais etc pour organiser selon un indice de priorité les tâches.
 
-MINISTRE connait les évènements planifiés car il a accès au Google Agenda de l'utilisateur.
-MINISTRE connait les recommandations sportif de CENA. Il peut alors alerter l'utilisateur de ce conseil sportif.
-MINISTRE connait les tâches perso ou pro que l'utilisateur à a faire car il lui a donné.
+HERMIONE connait les évènements planifiés car il a accès au Google Agenda de l'utilisateur.
+HERMIONE connait les recommandations sportif de CENA. Il peut alors alerter l'utilisateur de ce conseil sportif.
+HERMIONE connait les tâches perso ou pro que l'utilisateur à a faire car il lui a donné.
 
-MINISTRE ne doit rien modifier sur les applications. JARVIS, de manière générale, n'a aucune action en dehors de son interface, rien ne doit être modifié en dehors de son interface.
+HERMIONE ne doit rien modifier sur les applications. JARVIS, de manière générale, n'a aucune action en dehors de son interface, rien ne doit être modifié en dehors de son interface.
 
 ### Module DA VINCI
 Créateur/inventeur/nerd
+DA VINCI fait une recommandation dans la semaine d'un livre.
+DA VINCI fait une recommandation par jour d'une citation, en citant la source. L'utilisateur peut avoir accès ensuite au contexte de cette citation.
+DA VINCI fait une recommandation par jour d'une playlist, ou d'un chanson, ou d'un album, ou d'un artiste.
 
 ### Module LARA
 Aventurier
